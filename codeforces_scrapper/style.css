@@ -32,6 +32,10 @@
   border: 1px solid #888;
 }
 
+.problem-statement .sample-tests .output {
+  margin-bottom: 5px;
+}
+
 .problem-statement .sample-tests .title {
   font-family: Consolas, "Lucida Console", "Andale Mono",
     "Bitstream Vera Sans Mono", "Courier New", Courier;
