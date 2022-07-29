@@ -17,8 +17,10 @@ def get_problem(url: str) -> str:
 
 
 def get_style() -> str:
+    style_path = os.path.join(os.path.abspath(os.path.dirname(__file__)),
+                              "style.css")
     # copy the style from style.css
-    with open("style.css", "r") as f:
+    with open(style_path, "r") as f:
         style = f.read()
     return str(f"<style>\n{style}\n</style>")
 
