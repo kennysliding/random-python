@@ -1,0 +1,49 @@
+.header {
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.header .title {
+  font-size: 150%;
+}
+
+.problem-statement .property-title {
+  display: inline;
+  padding-right: 4px;
+}
+
+.problem-statement .property-title:after {
+  content: ":";
+}
+
+.problem-statement .section-title {
+  font-size: 115%;
+  font-weight: bold;
+  margin-top: 12px;
+}
+
+.tex-font-style-tt {
+  font-size: 110%;
+  font-family: courier new, monospace;
+}
+
+.problem-statement .sample-tests .input,
+.problem-statement .sample-tests .output {
+  border: 1px solid #888;
+}
+
+.problem-statement .sample-tests .title {
+  font-family: Consolas, "Lucida Console", "Andale Mono",
+    "Bitstream Vera Sans Mono", "Courier New", Courier;
+  font-size: 0.9em;
+  padding: 0.25em;
+  border-bottom: 1px solid #888;
+  text-transform: lowercase;
+  font-weight: bold;
+}
+
+.problem-statement .sample-tests pre {
+  line-height: 1.25em;
+  padding: 0.25em;
+  margin: 0;
+}
