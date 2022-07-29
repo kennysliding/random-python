@@ -1,56 +1,6 @@
-# codeforces problem scrapped from [https://codeforces.com/problemset/problem/4/A](https://codeforces.com/problemset/problem/4/A)
+# codeforces problem statement scrapper
 
-<div class="problem-statement"><div class="header"><div class="title">A. Watermelon</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>64 megabytes</div><div class="input-file"><div class="property-title">input</div>standard input</div><div class="output-file"><div class="property-title">output</div>standard output</div></div><div><p>One hot summer day Pete and his friend Billy decided to buy a watermelon. They chose the biggest and the ripest one, in their opinion. After that the watermelon was weighed, and the scales showed <span class="tex-span"><i>w</i></span> kilos. They rushed home, dying of thirst, and decided to divide the berry, however they faced a hard problem.</p><p>Pete and Billy are great fans of even numbers, that's why they want to divide the watermelon in such a way that each of the two parts weighs even number of kilos, at the same time it is not obligatory that the parts are equal. The boys are extremely tired and want to start their meal as soon as possible, that's why you should help them and find out, if they can divide the watermelon in the way they want. For sure, each of them should get a part of positive weight.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first (and the only) input line contains integer number <span class="tex-span"><i>w</i></span> (<span class="tex-span">1 ≤ <i>w</i> ≤ 100</span>) — the weight of the watermelon bought by the boys.</p></div><div class="output-specification"><div class="section-title">Output</div><p>Print <span class="tex-font-style-tt">YES</span>, if the boys can divide the watermelon into two parts, each of them weighing even number of kilos; and <span class="tex-font-style-tt">NO</span> in the opposite case.</p></div><div class="sample-tests"><div class="section-title">Examples</div><div class="sample-test"><div class="input"><div class="title">Input</div><pre>8<br/></pre></div><div class="output"><div class="title">Output</div><pre>YES<br/></pre></div></div></div><div class="note"><div class="section-title">Note</div><p>For example, the boys can divide the watermelon into two parts of 2 and 6 kilos respectively (another variant — two parts of 4 and 4 kilos).</p></div></div>
+usage:
+python main.py <codeforces_url> [directory]
 
-<style>
-.header {
-  margin-bottom: 1em;
-  text-align: center;
-}
-
-.header .title {
-  font-size: 150%;
-}
-
-.problem-statement .property-title {
-  display: inline;
-  padding-right: 4px;
-}
-
-.problem-statement .property-title:after {
-  content: ":";
-}
-
-.problem-statement .section-title {
-  font-size: 115%;
-  font-weight: bold;
-  margin-top: 12px;
-}
-
-.tex-font-style-tt {
-  font-size: 110%;
-  font-family: courier new, monospace;
-}
-
-.problem-statement .sample-tests .input,
-.problem-statement .sample-tests .output {
-  border: 1px solid #888;
-}
-
-.problem-statement .sample-tests .title {
-  font-family: Consolas, "Lucida Console", "Andale Mono",
-    "Bitstream Vera Sans Mono", "Courier New", Courier;
-  font-size: 0.9em;
-  padding: 0.25em;
-  border-bottom: 1px solid #888;
-  text-transform: lowercase;
-  font-weight: bold;
-}
-
-.problem-statement .sample-tests pre {
-  line-height: 1.25em;
-  padding: 0.25em;
-  margin: 0;
-}
-
-</style>
+this script will download the problems specified from the url and write into README.md in the given directory, or the current working directory if not given.
